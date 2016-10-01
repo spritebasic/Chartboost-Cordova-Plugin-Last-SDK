@@ -1,14 +1,22 @@
 Cordova Chartboost plugin
 ====================
 # Overview #
+Fork of https://github.com/cranberrygame/cordova-plugin-ad-chartboost by Sang Ki Kwon updated with Chartboost latest SDK 6.5.1
+This SDK provides a 20% Bonus in eCPM until 31/12/2016 compare to SDK 6.4
+
 Show chartboost interstitial (static interstitial, video interstial), more apps, rewarded video ad
 
 [android, ios] [cordova cli] [xdk] [cocoon] [phonegap build service]
 
 Requires chartboost account https://www.chartboost.com
 
-Android SDK 6.1.0 (Nov. 19, 2015)<br>
-iOS SDK 6.4.0 (Mar. 14, 2016)<br>
+Android SDK 6.5.1 <br>
+iOS SDK 6.5.1 <br>
+
+In case of IOS Build error (Can't find Chartboost.h):
+https://github.com/cranberrygame/cordova-plugin-ad-chartboost/issues/9
+Intel XDK users: add plugin through Git Repo : https://github.com/spritebasic/Chartboost-Cordova-Plugin-Last-SDK.git
+Not from cordova plugin registry
 
 I can't see any ads in my game - create a new publishing campaign in the Chartboost dashboard (takes 20 minutes to take effect)
 https://answers.chartboost.com/hc/en-us/articles/201121969-I-can-t-see-any-ads-in-my-game
@@ -45,18 +53,18 @@ You can see Cordova Plugins in one page: http://cranberrygame.github.io?referrer
 https://cordova.apache.org/docs/en/edge/guide_cli_index.md.html#The%20Command-Line%20Interface - npm install -g cordova@6.0.0
 ```c
 cordova plugin add cordova-plugin-ad-chartboost
-(when build error, use github url: cordova plugin add cordova plugin add https://github.com/cranberrygame/cordova-plugin-ad-chartboost)
+(when build error, use github url: cordova plugin add cordova plugin add https://github.com/spritebasic/Chartboost-Cordova-Plugin-Last-SDK)
 ```
 
 ## Xdk ##
-https://software.intel.com/en-us/intel-xdk - Download XDK - XDK PORJECTS - [specific project] - CORDOVA HYBRID MOBILE APP SETTINGS - Plugin Management - Add Plugins to this Project - Third Party Plugins -
+https://software.intel.com/en-us/intel-xdk - Download XDK - XDK PORJECTS - [specific project] - CORDOVA HYBRID MOBILE APP SETTINGS - Plugin Management - Git Repo : https://github.com/spritebasic/Chartboost-Cordova-Plugin-Last-SDK.git
 ```c
 Plugin Source: Cordova plugin registry
 Plugin ID: cordova-plugin-ad-chartboost
 ```
 
 ## Cocoon ##
-https://cocoon.io - Create project - [specific project] - Setting - Plugins - Custom - Git Url: https://github.com/cranberrygame/cordova-plugin-ad-chartboost.git - INSTALL - Save<br>
+https://cocoon.io - Create project - [specific project] - Setting - Plugins - Custom - Git Url: https://github.com/spritebasic/Chartboost-Cordova-Plugin-Last-SDK.git - INSTALL - Save<br>
 
 ## Phonegap build service (config.xml) ##
 https://build.phonegap.com/ - Apps - [specific project] - Update code - Zip file including config.xml
