@@ -9,7 +9,7 @@
     <author>Sang Ki Kwon (Cranberrygame)</author>	
     <license>MIT</license>
     <keywords>cordova,plugin,ad,chartboost,monetisation,interstitial,video</keywords>
-    <repo>https://benoit_varasse@bitbucket.org/benoit_varasse/cordova-chartboost-ad-plugin.git</repo>
+    <repo>https://github.com/spritebasic/Chartboost-Cordova-Plugin-Last-SDK.git</repo>
  	<engines>
 	    <engine name="cordova" version=">=3.0.0" />
 	</engines>
